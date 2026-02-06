@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuphead</title>
+    <head>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+</head>
+<body class="animate__animated animate__fadeInDown">
+    <header>
+        <section class="header-block">
+            <nav>
+            <p class="logo">Cuphead</p>
+           <div class="links">
+               <a href="#Cuphead" class="link">Cuphead</a>
+               <a href="#Mugman" class="link">Mugman</a>
+               <a href="#Ms_Chalice" class="link">Ms_Chalice</a>
+           </div>
+            </nav>
+            <div class="title-block">
+            <h1 class="title">Cuphead <b>это </b>игра</h1>
+            
+            <p class="subtitle">Cuphead — это сложная видеоигра, выполненная в стиле старых мультфильмов.<br> 
+                                Главный герой, Капхед, сражается с разными боссами, проходя множество уровней.<br>
+                                Игра известна своей высокой сложностью и красивой рисованной анимацией.</p> 
+            </div>
+            <img src="gang.png" class="gang">
+        </section>
+        <main id="Cuphead">
+            <img src="cuphead1.png" class="gang1">
+        <h1 class="title2">Капхед</h1>
+        <p class="subtitle1"> — это мультяшный персонаж с головой в виде чашки,<br>
+                            известный своей дерзкой улыбкой и любовью к приключениям.<br>
+                            Он является главным героем игры Cuphead, где сражается<br> с необычными боссами, чтобы вернуть долг Дьяволу.</p>                   
+        </main>
+        <section class="mugman-backgound" id="Mugman">
+            <img src="mugman.png" class="gang2">
+            <h1 class="title3">Mugman</h1>
+            <p class="subtitle2"> — это персонаж из игры Cuphead. Он младший брат<br>
+                                 Cuphead и обычно носит синюю одежду. Mugman добрый, осторожный<br>
+                                 и всегда старается помочь своему брату. Несмотря на свой страх, он<br>
+                                часто проявляет храбрость в трудных ситуациях.</p>
+        </section>
+        <section class="chalice_bg" id="Ms_Chalice">
+            <img src="ms.chilce.png" class="gang3">
+            <h1 class="title4">Ms. Chalice</h1>
+            <p class="subtitle3">— это персонаж из игры Cuphead. Она смелая и<br>
+                                энергичная героиня с золотым обликом. Ms. Chalice ловкая,<br>
+                                уверенная в себе и любит приключения. Она всегда готова прийти<br> 
+                                на помощь друзьям и не боится опасностей.</p>
+        </section>
+        <section  class="end">
+            <video class="video" src="cupheadvid.mp4" loop autoplay muted controls></video>
+            <div class="photogallery" id="photogallery"></section>
+    <section class="lol">
+    <section class="photogallery">
+  <h1 class="block-title">Game Pictures</h1>
+  <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="1.jpg"></div>
+      <div class="swiper-slide"><img src="2.jpg"></div>
+      <div class="swiper-slide"><img src="3.jpg"></div>
+      <div class="swiper-slide"><img src="4.jpg"></div>
+      <div class="swiper-slide"><img src="5.jpg"></div>
+      <div class="swiper-slide"><img src="6.jpg"></div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </section>
+  </section>
+  <div class="bottom">
+    <div class="bottom-container">
+        <h1 class="lod">© 2026 </h1>
+    </div>
+    </div>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+
+</body>
+</html>
